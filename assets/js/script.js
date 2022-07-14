@@ -58,7 +58,7 @@ function validaEmail() {
 function validaAssunto() {
     let txtAssunto = document.querySelector('#txtAssunto')
     if (assunto.value.length >= 100) {
-        txtAssunto.innerHTML = 'Texto muito extenso. Por favor, digite no máximo 100 carateres'
+        txtAssunto.innerHTML = 'Texto muito extenso. Por favor, digite no máximo 100 caracteres'
         txtAssunto.style.color = 'red'
         txtAssunto.style.display = 'block'
     }
